@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockPro | Indian Markets</title>
+    <link rel="stylesheet" href="\css\styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">StockPro</div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#">Markets</a></li>
+                <li><a href="#">Sectors</a></li>
+                <li><a href="#">Tools</a></li>
+                <li><a href="#">Insights</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search Stocks...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Disclaimer -->
+    <div class="disclaimer">
+        <marquee behavior="scroll" direction="left">
+            Disclaimer: Stock market investments are subject to market risks. Please read all scheme-related documents carefully before investing.
+        </marquee>
+    </div>
+
+    <!-- Index Table Section -->
+    <section class="index-section">
+        <h2>Indian Stock Market Indices</h2>
+        <div class="index-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Index</th>
+                        <th>Current Price</th>
+                        <th>Change (%)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>NIFTY 50</td>
+                        <td>19,200</td>
+                        <td class="gain">+1.23%</td>
+                    </tr>
+                    <tr>
+                        <td>SENSEX</td>
+                        <td>65,432</td>
+                        <td class="gain">+0.98%</td>
+                    </tr>
+                    <tr>
+                        <td>NIFTY BANK</td>
+                        <td>42,500</td>
+                        <td class="loss">-0.45%</td>
+                    </tr>
+                    <tr>
+                        <td>NIFTY IT</td>
+                        <td>29,850</td>
+                        <td class="gain">+2.15%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 StockPro. All rights reserved.</p>
+            <div class="socials">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

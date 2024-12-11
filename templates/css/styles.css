@@ -252,3 +252,55 @@ footer .socials i {
 footer .socials i:hover {
   color: #00b894;
 }
+
+
+
+
+/* Markets Page */
+/* Disclaimer */
+.disclaimer {
+  background: #d63031;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Index Section */
+.index-section {
+  padding: 40px 30px;
+  background-color: #121212;
+  color: #dcdde1;
+  text-align: center;
+}
+.index-section h2 {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+.index-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  max-width: 800px;
+}
+.index-table th, .index-table td {
+  padding: 12px 15px;
+  border: 1px solid #444;
+  text-align: center;
+}
+.index-table th {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  font-weight: bold;
+}
+.index-table td {
+  background-color: #222;
+}
+.index-table .gain {
+  color: #00b894;
+  font-weight: bold;
+}
+.index-table .loss {
+  color: #d63031;
+  font-weight: bold;
+}
